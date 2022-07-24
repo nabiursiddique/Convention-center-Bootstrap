@@ -10,12 +10,7 @@
   border-radius: 20px;
 }
 
-.different-card {
-  background-color: #3f87f5;
-  color: white;
-  box-shadow: 0 30px 25px rgba(63, 135, 245, 0.2);
-  border-radius: 20px;
-}
+
 
 ul {
   list-style: none;
@@ -36,6 +31,12 @@ ul {
 .card-3 {
   transform: translate(0, -5%);
 }
+.different-card {
+    background-color: #3f87f5;
+    color: white;
+    box-shadow: 0 30px 25px rgba(63, 135, 245, 0.2);
+    border-radius: 20px;
+  }
 
 /* for card number three button only */
 .btn-bg {

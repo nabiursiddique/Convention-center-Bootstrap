@@ -1,70 +1,100 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-*{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-
-
-.container .row .col .card{
-    /* border: none; */
-    border-radius: 20px;
+.container .row .col .card {
+  /* border: none; */
+  border-radius: 20px;
 }
 
-.different-card{
-    background-color: #3f87f5;
-    color: white;
-    box-shadow: 0 30px 25px rgba(63, 135, 245, 0.2);
-    border-radius: 20px;
+.different-card {
+  background-color: #3f87f5;
+  color: white;
+  box-shadow: 0 30px 25px rgba(63, 135, 245, 0.2);
+  border-radius: 20px;
 }
 
-ul{
-    list-style: none;
-    padding-left: 0;
+ul {
+  list-style: none;
+  padding-left: 0;
 }
 
-.icon-custom-color{
-    background-color:#5243C2 ;
-    color:  #edecf9;
-    border-radius: 50%;
-    font-size: 100%;
+.icon-custom-color {
+  background-color: #5243c2;
+  color: #edecf9;
+  border-radius: 50%;
+  font-size: 100%;
 }
 
-.btn-custom-color{
-    background-color: #fef5fa;
+.btn-custom-color {
+  background-color: #fef5fa;
 }
 
-.card-3{
-    transform: translate(0,-5%);
+.card-3 {
+  transform: translate(0, -5%);
 }
 
 /* for card number three button only */
-.btn-bg{
-    background-color: white;
+.btn-bg {
+  background-color: white;
 }
 /* Happy client card  */
-.happy-client-card{
-    border: none;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.07);
+.happy-client-card {
+  border: none;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.07);
 }
 
 /* footer  */
-.playstore button{
-    border: 1px solid  white;
+.playstore button {
+  border: 1px solid white;
 }
 
-@media screen and (max-width:576px) {
-    .font-sizing{
-        padding: 0;
-        line-height: 1;
-        font-size: 60%;
+@media screen and (max-width: 576px) {
+    .navbar-brand{
+        width: 50%;
     }
-    .book-now-btn{
-        padding: 1% 1%;
-        font-size: 1rem;
-    }
-    .carosuel-heading{
-        font-size: 1.5rem;
-    }
+  .font-sizing {
+    padding: 0;
+    line-height: 1;
+    font-size: 60%;
+  }
+  .carousel-para{
+    font-size: 0.5rem;
+    margin-bottom: 5px;
+  }
+  .book-now-btn {
+    padding: 0.5% 1%;
+    font-size: .5rem;
+  }
+  .carosuel-heading {
+    font-size: 1rem;
+  }
+  .every-moment {
+    text-align: center;
+  }
+  .every-moment-text{
+    padding-top: 2rem;
+  }
+  .card-3{
+    margin-top: 3rem;
+  }
+  .frequently-asked-sec{
+    margin-bottom: 1.5rem;
+  }
+  .copy-right{
+    display: block;
+    text-align: center;
+  }
+  .get-app{
+    display: block;
+    text-align: center;
+  }
+  .playstore {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+  }
 }

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container .row .col .card{
+    /* border: none; */
+    border-radius: 20px;
+}
+
+.different-card{
+    background-color: #3f87f5;
+    color: white;
+    box-shadow: 0 30px 25px rgba(63, 135, 245, 0.2);
+    border-radius: 20px;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.icon-custom-color{
+    background-color:#5243C2 ;
+    color:  #edecf9;
+    border-radius: 50%;
+    font-size: 100%;
+}
+
+.btn-custom-color{
+    background-color: #fef5fa;
+}
+
+.card-3{
+    transform: translate(0,-5%);
+}
+
+/* for card number three button only */
+.btn-bg{
+    background-color: white;
+}
+/* Happy client card  */
+.happy-client-card{
+    border: none;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.07);
+}
+
+/* footer  */
+.playstore button{
+    border: 1px solid  white;
+}

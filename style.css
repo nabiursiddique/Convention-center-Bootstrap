@@ -5,6 +5,8 @@
     padding: 0;
 }
 
+
+
 .container .row .col .card{
     /* border: none; */
     border-radius: 20px;
@@ -50,4 +52,19 @@ ul{
 /* footer  */
 .playstore button{
     border: 1px solid  white;
+}
+
+@media screen and (max-width:576px) {
+    .font-sizing{
+        padding: 0;
+        line-height: 1;
+        font-size: 60%;
+    }
+    .book-now-btn{
+        padding: 1% 1%;
+        font-size: 1rem;
+    }
+    .carosuel-heading{
+        font-size: 1.5rem;
+    }
 }

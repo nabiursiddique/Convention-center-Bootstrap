@@ -30,6 +30,16 @@ ul {
 .card-3 {
   transform: translate(0, -5%);
 }
+.hot-text{
+  background-color: red;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 30%;
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  margin-right: 20px;
+}
 .different-card {
     background-color: #3f87f5;
     color: white;

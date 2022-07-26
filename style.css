@@ -10,8 +10,6 @@
   border-radius: 20px;
 }
 
-
-
 ul {
   list-style: none;
   padding-left: 0;
@@ -27,6 +25,7 @@ ul {
 .btn-custom-color {
   background-color: #fef5fa;
 }
+
 
 .card-3 {
   transform: translate(0, -5%);
